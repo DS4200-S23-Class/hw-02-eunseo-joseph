@@ -21,19 +21,29 @@ svg {
 }
 
 circle {
+	height: 50px;
+	width: 50px;
 	opacity: 50%;
 	fill: green;
+	r: 50px;
+	cx: 50px;
+	cy: 50px;
 }
 
 circle:hover {
-	border-style: solid;
+	stroke: black;
+  stroke-width: 1px;
 }
 
 rect {
-	border-style: solid;
-	fill: red;
+  height: 100px;
+  width: 100px;
+	stroke: black;
+  stroke-width: 1px;
+	fill: green;
 }
 
 rect:hover {
 	fill: blue;
 }
+          
