@@ -46,4 +46,20 @@ rect {
 rect:hover {
 	fill: blue;
 }
+
+.flex {
+	display: flex;
+	flex-direction: row;
+}
+
+.column1 {
+	width: 50%;
+	height: 100vh;
+	color: white;
+}
+
+.column2 {
+	width: 50%;
+	height: 100vh;
+}
           
