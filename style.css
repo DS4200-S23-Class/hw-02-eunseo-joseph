@@ -14,8 +14,13 @@ th {
   background-color: blue;
 }
 
-circle {
+svg {
 	display: inline-block;
+	height: 100px;
+	width: 100px;
+}
+
+circle {
 	opacity: 50%;
 	fill: green;
 }
@@ -25,7 +30,6 @@ circle:hover {
 }
 
 rect {
-	display: inline-block;
 	border-style: solid;
 	fill: red;
 }
